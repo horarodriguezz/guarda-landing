@@ -1,21 +1,10 @@
-import { useEffect } from "react";
-
 import { motion } from "framer-motion";
 import styles from "styles/Navbar/Sidebar.module.css";
 
-const Sidebar = ({ showSidebar, setShowSidebar }) => {
-  useEffect(() => {
-    const body = document.getElementsByTagName("body")[0];
-    if (showSidebar) {
-      body.style.overflowY = "hidden";
-    } else {
-      body.style.overflowY = "auto";
-    }
-  }, [showSidebar]);
-
+const Sidebar = ({ setShowSidebar }) => {
   const variant = {
     initial: {
-      x: "100%",
+      x: "-100%",
     },
     animate: {
       x: 0,
@@ -24,7 +13,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
       },
     },
     exit: {
-      x: "100%",
+      x: "-100%",
       transition: {
         duration: 0.3,
       },
