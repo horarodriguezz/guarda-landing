@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useScrollDirection } from "hooks/useScrollDirection";
 
 import NavbarLogo from "./NavbarLogo";
@@ -7,8 +6,7 @@ import ToggleButton from "./ToggleButton";
 import UserLogo from "./UserLogo";
 import NavigationList from "./NavigationList";
 
-const Navbar = () => {
-  const [showSidebar, setShowSidebar] = useState(null);
+const Navbar = ({ showSidebar, setShowSidebar }) => {
   const scrollDirection = useScrollDirection();
 
   return (
