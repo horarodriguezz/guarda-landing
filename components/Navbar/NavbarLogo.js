@@ -12,10 +12,10 @@ const NavbarLogo = () => {
         src='/assets/logo.png'
         layout='fill'
         sizes={width < 1024 ? "40vw" : "20vw"}
-        quality={100}
         objectFit='contain'
         objectPosition='center'
-        priority
+        priority={true}
+        alt='Logo de Guarda y Custodia'
       />
     </div>
   );

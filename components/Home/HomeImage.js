@@ -12,7 +12,6 @@ const HomeImage = () => {
         src='/assets/backgrounds/Imagen-01.png'
         layout='fill'
         sizes={width < 1024 ? "100vw" : "50vw"}
-        quality={100}
         priority
         alt=''
         objectFit='contain'
