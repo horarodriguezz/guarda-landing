@@ -36,15 +36,12 @@ const Navbar = () => {
         <NavbarLogo />
         <UserLogo />
         <NavigationList />
-        <AnimatePresence>
-          {showSidebar && (
-            <Sidebar
-              showSidebar={showSidebar}
-              setShowSidebar={setShowSidebar}
-            />
-          )}
-        </AnimatePresence>
       </div>
+      <AnimatePresence>
+        {showSidebar && (
+          <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
+        )}
+      </AnimatePresence>
     </header>
   );
 };
