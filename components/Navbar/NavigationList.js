@@ -5,19 +5,26 @@ const NavigationList = () => {
     <nav className={styles.navlist}>
       <ul className={styles.navlist__list}>
         <li className={styles.navlist__list_item}>
-          <a href='#'>Inicio</a>
+          <a
+            href='#'
+            onClick={() => {
+              window.scroll({ y: 0, behavior: "smooth" });
+            }}
+          >
+            Inicio
+          </a>
         </li>
         <li className={styles.navlist__list_item}>
-          <a href='#'>Servicios</a>
+          <a href='#servicios'>Servicios</a>
         </li>
         <li className={styles.navlist__list_item}>
-          <a href='#'>Nosotros</a>
+          <a href='#nosotros'>Nosotros</a>
         </li>
         <li className={styles["navlist__list_item--button"]}>
-          <a href='#'>Contacto</a>
+          <a href='#contacto'>Contacto</a>
         </li>
         <li className={styles["navlist__list_item--button"]}>
-          <a href='#'>Log In</a>
+          <a href={process.env.NEXT_PUBLIC_LOGIN_URL}>Log In</a>
         </li>
       </ul>
     </nav>

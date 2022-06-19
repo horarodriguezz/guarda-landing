@@ -1,0 +1,27 @@
+.homesection {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  margin-top: 5rem;
+}
+
+.homesection__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .homesection__container {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .homesection__container {
+    flex-direction: row-reverse;
+    height: calc(100vh - 5rem);
+    width: 85%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,30 @@
+.imagecontainer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.imagecontainer img {
+  object-position: 10px center;
+}
+
+@media (min-width: 768px) {
+  .imagecontainer {
+    height: 500px;
+  }
+
+  .imagecontainer img {
+    object-position: 32px center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .imagecontainer {
+    height: calc(100vh - 5rem);
+    width: 60%;
+  }
+
+  .imagecontainer img {
+    object-position: 70px center;
+  }
+}

@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 
 export const useScrollDirection = () => {
   const [y, setY] = useState(0);
-  const [scrollDirection, setScrollDirection] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState(true);
 
   const handleScroll = useCallback(() => {
     if (y > window.scrollY) setScrollDirection(true);

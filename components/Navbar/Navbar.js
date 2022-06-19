@@ -13,7 +13,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={scrollDirection ? styles["header--hidden"] : styles.header}
+      id='#header'
+      className={scrollDirection ? styles.header : styles["header--hidden"]}
     >
       <div className={styles.header__container}>
         <ToggleButton

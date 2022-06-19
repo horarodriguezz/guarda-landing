@@ -1,10 +1,16 @@
 .logocontainer {
-  width: 2rem;
-  height: 2rem;
+  font-size: 1.5rem;
   color: #4a50fe;
+  width: 1.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  .logocontainer {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
   .logocontainer {
     display: none;
   }

@@ -13,9 +13,18 @@
 
 .navlist__list_item {
   font-weight: 500;
-  color: #2f4763;
+  color: #2e4765;
   font-size: 1.25rem;
   margin-left: 3rem;
+  background-image: linear-gradient(#4a50fe, #4a50fe);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+
+.navlist__list_item:hover {
+  background-size: 100% 2px;
 }
 
 .navlist__list_item--button {
@@ -23,6 +32,7 @@
   color: white;
   padding: 0.25rem 1rem;
   background-color: #4a50fe;
+  border: 2px solid #4a50fe;
   font-size: 1.25rem;
   height: fit-content;
   width: 120px;
@@ -31,6 +41,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s;
+}
+
+.navlist__list_item--button:hover {
+  background-color: inherit;
+  border: 2px solid #4a50fe;
+  cursor: pointer;
+  color: #4a50fe;
 }
 
 @media (min-width: 1024px) {
