@@ -1,0 +1,11 @@
+.logocontainer {
+  width: 2rem;
+  height: 2rem;
+  color: #4a50fe;
+}
+
+@media (min-width: 1024px) {
+  .logocontainer {
+    display: none;
+  }
+}

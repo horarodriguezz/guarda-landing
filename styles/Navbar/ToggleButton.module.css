@@ -1,0 +1,13 @@
+.toggleButton {
+  width: 1.5rem;
+  height: fit-content;
+  color: #4a50fe;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .toggleButton {
+    display: none;
+  }
+}

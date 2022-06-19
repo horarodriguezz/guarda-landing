@@ -1,0 +1,11 @@
+.logocontainer {
+  height: 100%;
+  width: 11rem;
+  position: relative;
+}
+
+@media (min-width: 1536px) {
+  .logocontainer {
+    width: 18rem;
+  }
+}
