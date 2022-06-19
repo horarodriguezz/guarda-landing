@@ -1,0 +1,129 @@
+.services {
+  width: 100%;
+  min-height: calc(100vh - 5rem);
+  padding-bottom: 2rem;
+}
+
+.services__container {
+  width: 85%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.services__container_title {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  color: #2e4765;
+}
+
+.services__container_description {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #2e4765;
+  margin-bottom: 2rem;
+  line-height: 1.3rem;
+}
+
+.services__container_content {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+
+.content__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 0;
+}
+
+.content__image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .services__container_title {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .services__container_description {
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .content__grid {
+    justify-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .services__container_title {
+    margin-bottom: 1rem;
+  }
+
+  .services__container_description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 48%;
+    margin: 0 auto 2rem auto;
+  }
+
+  .services__container_content {
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+
+  .content__grid {
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.5rem 2.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .content__image {
+    display: block;
+    position: relative;
+    width: 50%;
+  }
+
+  .content__image img {
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1536px) {
+  .services {
+    min-height: calc(100vh - 6rem);
+  }
+
+  .services__container_title {
+    font-size: 2.75rem;
+    line-height: 3.1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .services__container_description {
+    font-size: 1.35rem;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .content__grid {
+    width: 50%;
+  }
+
+  .content__image {
+    width: 60%;
+    flex-shrink: 1;
+    object-fit: cover;
+  }
+}

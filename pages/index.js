@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import HomeSection from "components/Home/HomeSection";
 import Navbar from "components/Navbar/Navbar";
 import { AnimatePresence } from "framer-motion";
+import ServicesSection from "components/Services/ServicesSection";
 const Sidebar = dynamic(() => import("components/Navbar/Sidebar"));
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Navbar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       <main>
         <HomeSection />
+        <ServicesSection />
         <AnimatePresence>
           {showSidebar && (
             <Sidebar

@@ -14,18 +14,15 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
   const variant = {
     initial: {
       x: "-100%",
-      opacity: 0.5,
     },
     animate: {
       x: 0,
-      opacity: 1,
       transition: {
         duration: 0.3,
       },
     },
     exit: {
       x: "-100%",
-      opacity: 0.5,
       transition: {
         duration: 0.3,
       },

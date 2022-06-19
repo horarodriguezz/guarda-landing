@@ -1,0 +1,36 @@
+{
+  "services": [
+    {
+      "icon": "/assets/icons/ordenar.svg",
+      "text": "Clasificación de expedientes"
+    },
+    {
+      "icon": "/assets/icons/list.svg",
+      "text": "Creación de Indices y etiquetas"
+    },
+    {
+      "icon": "/assets/icons/fileCheck.svg",
+      "text": "Descripción de documentos"
+    },
+    {
+      "icon": "/assets/icons/clean.svg",
+      "text": "Limpieza de expedientes"
+    },
+    {
+      "icon": "/assets/icons/stamp.svg",
+      "text": "Reconstrucción de expedientes"
+    },
+    {
+      "icon": "/assets/icons/online-resume.svg",
+      "text": "Generación de informes"
+    },
+    {
+      "icon": "/assets/icons/trazado.svg",
+      "text": "Intercalado de documentos"
+    },
+    {
+      "icon": "/assets/icons/box.svg",
+      "text": "Destrucción de cajas"
+    }
+  ]
+}
