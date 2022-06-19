@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ServicesSection = () => {
   return (
-    <section className={styles.services}>
+    <section id='servicios' className={styles.services}>
       <div className={styles.services__container}>
         <h2 className={styles.services__container_title}>
           Gestión integral <br /> de Información & datos
