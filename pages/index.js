@@ -1,3 +1,4 @@
+import ProcessSection from "components/AboutUs/ProcessSection/ProcessSection";
 import HomeSection from "components/Home/HomeSection";
 import Navbar from "components/Navbar/Navbar";
 import ServicesSection from "components/Services/ServicesSection";
@@ -9,6 +10,7 @@ export default function HomePage() {
       <main>
         <HomeSection />
         <ServicesSection />
+        <ProcessSection />
       </main>
     </>
   );
