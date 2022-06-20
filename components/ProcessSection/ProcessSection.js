@@ -2,14 +2,14 @@ import { useWindowSize } from "hooks/useWindowSize";
 
 import dynamic from "next/dynamic";
 import ProcessStep from "./ProcessStep";
-import styles from "styles/AboutUs/ProcessSection/ProcessSection.module.css";
+import styles from "styles/ProcessSection/ProcessSection.module.css";
 const BackgroundImage = dynamic(() => import("./BackgroundImage"));
 
 const ProcessSection = () => {
   const width = useWindowSize();
 
   return (
-    <section id='nosotros' className={styles.process}>
+    <section className={styles.process}>
       <h2 className={styles.process__container_title}>
         Cómo funciona nuestro proceso
       </h2>

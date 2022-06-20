@@ -1,0 +1,22 @@
+.section__imagecontainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section__image {
+  position: relative;
+  top: 11px;
+  right: -104px;
+  height: 90vh;
+  width: 85vw;
+  transform: rotate(-29deg);
+}
+
+@media (min-width: 1536px) {
+  .section__image {
+    top: -54px;
+    right: -154px;
+    width: 90vw;
+  }
+}

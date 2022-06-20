@@ -1,6 +1,6 @@
 .services {
   width: 100%;
-  min-height: calc(100vh - 5rem);
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -92,6 +92,7 @@
     display: block;
     position: relative;
     width: 50%;
+    right: -38px;
   }
 
   .content__image img {

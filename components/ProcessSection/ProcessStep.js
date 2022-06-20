@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "styles/AboutUs/ProcessSection/ProcessStep.module.css";
+import styles from "styles/ProcessSection/ProcessStep.module.css";
 
 const ProcessStep = ({ icon, text }) => {
   return (
