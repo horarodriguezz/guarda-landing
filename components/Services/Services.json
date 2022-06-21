@@ -1,35 +1,35 @@
 {
   "services": [
     {
-      "icon": "/assets/icons/ordenar.svg",
+      "icon": "/assets/icons/ordenar.png",
       "text": "Clasificación de expedientes"
     },
     {
-      "icon": "/assets/icons/list.svg",
+      "icon": "/assets/icons/list.png",
       "text": "Creación de Indices y etiquetas"
     },
     {
-      "icon": "/assets/icons/fileCheck.svg",
+      "icon": "/assets/icons/fileCheck.png",
       "text": "Descripción de documentos"
     },
     {
-      "icon": "/assets/icons/clean.svg",
+      "icon": "/assets/icons/clean.png",
       "text": "Limpieza de expedientes"
     },
     {
-      "icon": "/assets/icons/stamp.svg",
+      "icon": "/assets/icons/stamp.png",
       "text": "Reconstrucción de expedientes"
     },
     {
-      "icon": "/assets/icons/online-resume.svg",
+      "icon": "/assets/icons/online-resume.png",
       "text": "Generación de informes"
     },
     {
-      "icon": "/assets/icons/trazado.svg",
+      "icon": "/assets/icons/trazado.png",
       "text": "Intercalado de documentos"
     },
     {
-      "icon": "/assets/icons/box.svg",
+      "icon": "/assets/icons/box.png",
       "text": "Destrucción de cajas"
     }
   ]

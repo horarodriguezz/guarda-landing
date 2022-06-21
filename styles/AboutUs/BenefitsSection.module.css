@@ -14,19 +14,20 @@
 @media (min-width: 1280px) {
   .benefits {
     background-color: inherit;
-    border: 1px solid inherit;
+    border: 1px solid #fff;
   }
 
   .benefits__container {
     flex-direction: row;
     width: 72%;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
+    margin-top: 0;
   }
 }
 
 @media (min-width: 1535px) {
   .benefits__container {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 }

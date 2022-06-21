@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .container__benefit_icon {
@@ -31,6 +31,10 @@
 }
 
 @media (min-width: 768px) {
+  .container__benefit {
+    margin-bottom: 3rem;
+  }
+
   .container__benefit_icon {
     width: 70px;
     height: 70px;
@@ -49,6 +53,10 @@
 }
 
 @media (min-width: 1280px) {
+  .container__benefit {
+    margin-bottom: 0;
+  }
+
   .container__benefit_icon {
     width: 64px;
     height: 64px;

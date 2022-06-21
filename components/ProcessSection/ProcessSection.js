@@ -16,23 +16,23 @@ const ProcessSection = () => {
       <div className={styles.process__container}>
         <div className={styles.process__container_steps}>
           <ProcessStep
-            icon={"/assets/icons/step1.svg"}
+            icon={"/assets/icons/step1.png"}
             text={"Relevamiento general de su documentación. "}
           />
           <ProcessStep
-            icon={"/assets/icons/step2.svg"}
+            icon={"/assets/icons/step2.png"}
             text={`Coordinar la logística documental a nuestra planta Box.`}
           />
           <ProcessStep
-            icon={"/assets/icons/step3.svg"}
+            icon={"/assets/icons/step3.png"}
             text={`Procesamiento y trasvasamiento documental.`}
           />
           <ProcessStep
-            icon={"/assets/icons/step4.svg"}
+            icon={"/assets/icons/step4.png"}
             text={`Alta de Cajas en sistema Matrix.`}
           />
           <ProcessStep
-            icon={"/assets/icons/step5.svg"}
+            icon={"/assets/icons/step5.png"}
             text={"Consulte su documentación."}
           />
         </div>

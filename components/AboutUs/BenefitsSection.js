@@ -6,15 +6,15 @@ const BenefitsSection = () => {
     <section className={styles.benefits}>
       <div className={styles.benefits__container}>
         <Benefit
-          icon={"/assets/icons/document.svg"}
+          icon={"/assets/icons/document.png"}
           text={"Genera tus reportes"}
         />
         <Benefit
-          icon={"/assets/icons/verify.svg"}
+          icon={"/assets/icons/verify.png"}
           text={"Realiza las consultas que necesites"}
         />
         <Benefit
-          icon={"/assets/icons/shopping-list.svg"}
+          icon={"/assets/icons/shopping-list.png"}
           text={"Seguimiento de su estado documental"}
         />
       </div>
