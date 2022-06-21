@@ -88,19 +88,19 @@
 
 @media (min-width: 1536px) {
   .content__title {
-    font-size: 2.75rem;
-    line-height: 3.1rem;
+    font-size: 3.25rem;
+    line-height: 3.5rem;
     margin-bottom: 2.5rem;
   }
 
   .content__description {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     margin-bottom: 2.5rem;
   }
 
   .content__button {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
   }
 }
