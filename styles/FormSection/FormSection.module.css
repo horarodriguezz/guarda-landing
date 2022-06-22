@@ -1,0 +1,24 @@
+.section {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.section__container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .section__container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section__container {
+    flex-direction: row-reverse;
+    width: 70%;
+  }
+}
