@@ -18,7 +18,7 @@ const BoxSection = () => {
             quality={100}
             sizes={width > 1280 ? "70vw" : "30vw"}
             layout='fill'
-            objectFit='cover'
+            objectFit='contain'
             objectPosition='center'
           />
         </div>
