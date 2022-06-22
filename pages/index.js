@@ -4,6 +4,7 @@ import Navbar from "components/Navbar/Navbar";
 import ServicesSection from "components/Services/ServicesSection";
 import AboutUsSection from "components/AboutUs/AboutUsSection";
 import BenefitsSection from "components/AboutUs/BenefitsSection";
+import SolutionsSection from "components/Solutions/SolutionsSection";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
         <ProcessSection />
         <AboutUsSection />
         <BenefitsSection />
+        <SolutionsSection />
       </main>
     </>
   );

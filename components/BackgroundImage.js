@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-const BackgroundImage = () => {
+const BackgroundImage = ({ src, fit }) => {
   return (
     <Image
-      src='/assets/backgrounds/TrazadoSteps.svg'
+      src={src}
       sizes='100vw'
       layout='fill'
-      objectFit='contain'
+      objectFit={fit}
       objectPosition='center'
       alt=''
     />

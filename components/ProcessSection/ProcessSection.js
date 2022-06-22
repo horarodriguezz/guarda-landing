@@ -3,7 +3,7 @@ import { useWindowSize } from "hooks/useWindowSize";
 import dynamic from "next/dynamic";
 import ProcessStep from "./ProcessStep";
 import styles from "styles/ProcessSection/ProcessSection.module.css";
-const BackgroundImage = dynamic(() => import("./BackgroundImage"));
+const BackgroundImage = dynamic(() => import("../BackgroundImage"));
 
 const ProcessSection = () => {
   const width = useWindowSize();
@@ -36,7 +36,12 @@ const ProcessSection = () => {
             text={"Consulte su documentación."}
           />
         </div>
-        {width > 1280 && <BackgroundImage />}
+        {width > 1280 && (
+          <BackgroundImage
+            src={"/assets/backgrounds/TrazadoSteps.svg"}
+            fit={"contain"}
+          />
+        )}
       </div>
     </section>
   );
