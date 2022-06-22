@@ -6,6 +6,7 @@ import AboutUsSection from "components/AboutUs/AboutUsSection";
 import BenefitsSection from "components/AboutUs/BenefitsSection";
 import SolutionsSection from "components/Solutions/SolutionsSection";
 import BoxSection from "components/BoxSection/BoxSection";
+import FinalSection from "components/HowCanHelpYou/FinalSection";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
         <BenefitsSection />
         <SolutionsSection />
         <BoxSection />
+        <FinalSection />
       </main>
     </>
   );
