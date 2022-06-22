@@ -24,13 +24,14 @@ const BoxSection = () => {
         </div>
         <p className={styles.section__container_text}>
           ¡Somos una compañía argentina apasionada por la innovación! Con más de
-          25 años de experiencia y trayectoria, nuestro servicio de "Guarda y
-          Gestión documental" revoluciona y simplifica la gestión de tus
+          25 años de experiencia y trayectoria, nuestro servicio de &quot;Guarda
+          y Gestión documental&quot; revoluciona y simplifica la gestión de tus
           procesos de negocio.
         </p>
         <a
           className={styles.section__container_link}
           target='_blank'
+          rel='noreferrer'
           href='https://www.boxcustodia.com/cms/'
         >
           Conocé nuestra empresa Box custodia{" "}
