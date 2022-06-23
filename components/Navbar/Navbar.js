@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <header
-      id='#header'
+      id='header'
       className={scrollDirection ? styles.header : styles["header--hidden"]}
     >
       <div className={styles.header__container}>

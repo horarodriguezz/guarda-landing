@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import ProcessSection from "components/ProcessSection/ProcessSection";
 import HomeSection from "components/Home/HomeSection";
 import Navbar from "components/Navbar/Navbar";
@@ -17,6 +18,26 @@ export default function HomePage() {
 
   return (
     <>
+      <Head>
+        <title>Guarda y Custodia - Administración y guarda documental</title>
+        <meta
+          name='description'
+          content='Ahorra espacio físico en tus oficinas y asegura el buen cuidado de tus archivos en nuestras instalaciones dedicadas y preparadas para la gestión de documentos.'
+        />
+        <meta
+          property='og:title'
+          content='Guarda y Custodia - Administración y guarda documental'
+        />
+        <meta
+          property='og:description'
+          content='Ahorra espacio físico en tus oficinas y asegura el buen cuidado de tus archivos en nuestras instalaciones dedicadas y preparadas para la gestión de documentos.'
+        />
+        <meta property='og:url' content={process.env.NEXT_PUBLIC_HOSTNAME} />
+        <meta
+          property='og:image'
+          content={`${process.env.NEXT_PUBLIC_HOSTNAME}/_next/image?url=%2Fassets%2Flogo.png&w=384&q=75`}
+        />
+      </Head>
       <Navbar />
       <main>
         <HomeSection />
