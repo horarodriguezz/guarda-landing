@@ -24,17 +24,35 @@ export default function HomePage() {
           name='description'
           content='Ahorra espacio físico en tus oficinas y asegura el buen cuidado de tus archivos en nuestras instalaciones dedicadas y preparadas para la gestión de documentos.'
         />
+        <link rel='canonical' href={process.env.NEXT_PUBLIC_HOSTNAME} />
         <meta
           property='og:title'
           content='Guarda y Custodia - Administración y guarda documental'
         />
         <meta
           property='og:description'
-          content='Ahorra espacio físico en tus oficinas y asegura el buen cuidado de tus archivos en nuestras instalaciones dedicadas y preparadas para la gestión de documentos.'
+          content='Ahorra espacio físico en tus oficinas y asegura el cuidado de tus archivos en nuestras instalaciones preparadas para la gestión de documentos.'
         />
         <meta property='og:url' content={process.env.NEXT_PUBLIC_HOSTNAME} />
         <meta
           property='og:image'
+          content={`${process.env.NEXT_PUBLIC_HOSTNAME}/_next/image?url=%2Fassets%2Flogo.png&w=384&q=75`}
+        />
+        <meta property='twitter:card' content='photo' />
+        <meta
+          property='twitter:title'
+          content='Guarda y Custodia - Administración y guarda documental'
+        />
+        <meta
+          property='twitter:description'
+          content='Ahorra espacio físico en tus oficinas y asegura el buen cuidado de tus archivos en nuestras instalaciones dedicadas y preparadas para la gestión de documentos.'
+        />
+        <meta
+          property='twitter:url'
+          content={process.env.NEXT_PUBLIC_HOSTNAME}
+        />
+        <meta
+          property='twitter:image'
           content={`${process.env.NEXT_PUBLIC_HOSTNAME}/_next/image?url=%2Fassets%2Flogo.png&w=384&q=75`}
         />
       </Head>
