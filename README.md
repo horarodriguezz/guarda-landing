@@ -16,8 +16,7 @@
 
 ## FORM POST REQUEST
 
-The form in the last of the page makes a post request to the URL defined in the environment variable NEXT_PUBLIC_FORM_POST_URL. It sends  
-a body with the following fields:
+The form in the last of the page makes a post request to the URL defined in the environment variable NEXT_PUBLIC_FORM_POST_URL. It sends a body with the following fields:
 
 1. name
 2. phone
