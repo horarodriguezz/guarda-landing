@@ -24,7 +24,7 @@ const NavigationList = () => {
           <a href='#contacto'>Contacto</a>
         </li>
         <li className={styles["navlist__list_item--button"]}>
-          <a href={process.env.NEXT_PUBLIC_LOGIN_URL}>Log In</a>
+          <a href={process.env.NEXT_PUBLIC_LOGIN_URL || "#"}>Log In</a>
         </li>
       </ul>
     </nav>

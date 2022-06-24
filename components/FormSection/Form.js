@@ -26,10 +26,20 @@ const Form = ({ setStatus }) => {
 
   const onSubmit = async (data) => {
     try {
-      setStatus({
-        title: "Mensaje enviado",
-        message: "El envío del formulario se realizo correctamente.",
+      const response = await fetch(process.env.NEXT_PUBLIC_FORM_POST_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
       });
+
+      if (response.status >= 200 && response.status < 300) {
+        setStatus({
+          title: "Mensaje enviado",
+          message: "El envío del formulario se realizo correctamente.",
+        });
+      }
 
       reset();
     } catch (error) {
