@@ -14,4 +14,17 @@
 4. npm start - runs the production build locally
 5. npm export - export the app to static HTML files which can be deployed without the need of a nodejs server
 
+## FORM POST REQUEST
+
+The form in the last of the page makes a post request to the URL defined in the environment variable NEXT_PUBLIC_FORM_POST_URL. It sends  
+a body with the following fields:
+
+1. name
+2. phone
+3. email
+4. company
+5. message
+
+Once it sends the request, expect a response status 2xx in order to show the "succesfull modal" to the user other status codes will not trigger the modal. If the fetch fails, will show the modal but the message will be "There was an error please try again".
+
 ### To change the favicon simply replace the favicon.ico in the /public folder, be care to use the same name "favicon.ico"
